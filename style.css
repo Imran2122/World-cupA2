@@ -61,7 +61,11 @@ button {
 
 /* 2nd section start  */
 
+.main-container {
+    display: flex;
 
+
+}
 
 .main-container a {
     display: flex;
@@ -74,6 +78,7 @@ button {
 .main-content {
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
 
 }
 
@@ -107,15 +112,20 @@ button {
 }
 
 .button-style {
-    border: 20px solid black;
-    height: 130px;
+    background-color: #161616;
+    height: 187px;
+    width: 400px;
 }
 
 
 .button-style a {
     margin: 10px;
+    padding: 8px 20px;
     background-color: #B9B9B9;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -203,11 +213,13 @@ button {
 }
 
 .social-media {
-    display: flex;
+    display: none;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
+social-media
 
 /* other ondex */
 .potaka-container {
@@ -218,7 +230,7 @@ button {
 }
 
 .potaka {
-    border: 2px solid black;
+
     padding: 10px;
     width: 100%;
     align-items: center;
@@ -234,7 +246,7 @@ button {
 
 
 /* media query for mobile device */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
     .header {
 
         display: flex;
@@ -243,11 +255,12 @@ button {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
 
-    .main-content {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+    .button-style {
+
+        display: flex;
+        flex-direction: column;
 
     }
 
@@ -258,7 +271,7 @@ button {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
     .container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -266,7 +279,7 @@ button {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 688px) {
 
     .parent-manu {
 
@@ -276,6 +289,13 @@ button {
 
     }
 
+    .social-media {
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
 
 }
 
@@ -286,48 +306,53 @@ button {
 /* ///////////////
 tablet view
 /////////// */
-@media screen and (min-width:321px) and (max-width:768px) {
+@media screen and (min-width:688px) and (max-width:992px) {
 
-    .header {
+    .banner-image1,
+    .img {
 
-        display: flex;
-        flex-direction: column;
+        padding-right: 40px;
+        width: 100%;
 
     }
 }
 
-@media screen and (min-width:321px) and (max-width:768px) {
+@media screen and (min-width:688px) and (max-width:992px) {
 
     .button-style {
         display: flex;
+        flex-direction: row;
+        border: none;
+
 
     }
 
-
-    /* .main-container {
-
+    .container {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .button-style a {
+        align-items: center;
 
 
 
     }
 
-    .main-content,
-    .btn {
-        margin: 5px;
 
-
-    }
 
     .view-button {
         display: block;
         text-align: center;
-    } */
 
-
-
-
+    }
 
 }
