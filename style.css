@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Oswald&family=Poppins:wght@400;500&display=swap');
+
+body {
+
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.header {
+    display: flex;
+    background-color: #161616;
+
+
+
+}
+
+.header-style {
+    width: 100%;
+    padding-left: 50px;
+}
+
+.player-header {
+    color: #FFFFFF;
+    font-size: 5em;
+
+
+}
+
+.banner-image1 img {
+    width: 100%;
+}
+
+.paragrap {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+button {
+    background-color: tomato;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+
+
+}
+
+.img {
+    width: 581px;
+    height: 613px;
+}
+
+/* .btn {
+
+    text-decoration: none;
+    display: flex;
+    font-size: 1.5em;
+
+} */
+
+/* 2nd section start  */
+
+
+
+.main-container a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: space-between;
+
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    padding-left: 10px;
+}
+
+/* .main-content {
+    border: 10px solid black;
+    background-color: #161616;
+    height: 250px;
+    border-radius: 10px;
+
+} */
+
+
+.btn {
+    background-color: #FFFFFF;
+
+
+
+}
+
+.block-style {
+    background-color: brown;
+}
+
+.button-style {
+    border: 20px solid black;
+    height: 130px;
+}
+
+
+.button-style a {
+    margin: 10px;
+    background-color: #B9B9B9;
+    border-radius: 5px;
+
+}
+
+.main-container {
+    display: flex;
+
+}
+
+
+
+/* .small-btn1 {
+
+    width: 67px;
+    height: 24px;
+    background-color: #FFFFFF; 
+
+} */
+
+.view-button {
+    display: none;
+}
+
+
+.icons {
+    display: flex;
+}
+
+.icon {
+    display: flex;
+
+    padding: 10px;
+    align-items: center;
+}
+
+
+
+/* 2nd section end  */
+
+.footer-style {
+    background: #161616;
+    width: 100%;
+
+}
+
+.manu {
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+
+.manu a {
+    text-decoration: none;
+    color: #B9B9B9;
+
+
+}
+
+
+
+.goal {
+
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-top: 130px;
+    padding: 50px;
+
+
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.parent-manu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* other ondex */
+.potaka-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+
+}
+
+.potaka {
+    border: 2px solid black;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+
+
+/* media query for mobile device */
+@media only screen and (max-width: 600px) {
+    .header {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .parent-manu {
+
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+
+}
+
+
+
+
+
+/* ///////////////
+tablet view
+/////////// */
+@media screen and (min-width:321px) and (max-width:768px) {
+
+    .header {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:768px) {
+
+    .button-style {
+        display: flex;
+
+    }
+
+
+    /* .main-container {
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+
+
+
+    }
+
+    .main-content,
+    .btn {
+        margin: 5px;
+
+
+    }
+
+    .view-button {
+        display: block;
+        text-align: center;
+    } */
+
+
+
+
+
+}
