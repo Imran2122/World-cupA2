@@ -219,10 +219,9 @@ button {
     justify-content: center; */
 }
 
-social-media
 
 /* other ondex */
-.potaka-container {
+.potaka-container2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
